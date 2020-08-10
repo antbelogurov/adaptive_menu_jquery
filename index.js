@@ -1,7 +1,7 @@
-(function($) {
-    $(function() {
-        $('.icon').on('click',function() {
-            $(this).closest('.menu').toggleClass('menu-open');
+
+    $(() =>{
+        $('.icon').click(() => {
+            $('.menu').toggleClass('menu-open');
         });
     });
-})(jQuery);
+   
